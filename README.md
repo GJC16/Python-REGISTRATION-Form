@@ -34,7 +34,7 @@ nl.place(x=2, y=130)
 ne = Entry(w)
 ne.place(x=170, y=130)
 ```
--A label and an entry field for the user's name are created.
+- A label and an entry field for the user's name are created.
 
 #### Email Field
 ```Python
@@ -43,7 +43,7 @@ el.place(x=2, y=180)
 ee = Entry(w)
 ee.place(x=170, y=180)
 ```
--A label and entry for the user's email.
+- A label and entry for the user's email.
 
 #### Age Field
 ```Python
