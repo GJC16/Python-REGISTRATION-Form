@@ -25,7 +25,7 @@ l1.place(x=57, y=50)
 
 - A label is added to the window to display the title "REGISTRATION FORM" with a specific font size and style.
 
-###Input Fields
+### Input Fields
 
 #### Name Field
 ```Python
@@ -45,7 +45,7 @@ ee.place(x=170, y=180)
 ```
 -A label and entry for the user's email.
 
-####Age Field
+#### Age Field
 ```Python
 al = Label(w, text="Age :", width=20, font=('Times New Roman', 15))
 al.place(x=-6, y=230)
@@ -54,7 +54,7 @@ ae.place(x=170, y=230)
 ```
 - A label and entry for the user's age.
   
-####Gender Selection
+#### Gender Selection
 ```python
 gl = Label(w, text="Gender :", width=20, font=('Times New Roman', 14))
 gl.place(x=10, y=280)
@@ -66,7 +66,7 @@ f.place(x=230, y=280)
 ```
 - A label for gender selection with radio buttons for "Male" and "Female".
 
-####Mobile Number Field
+#### Mobile Number Field
 ```Python
 ml = Label(w, text="Mobile No.", width=20, font=('Times New Roman', 13))
 ml.place(x=28, y=330)
@@ -75,7 +75,7 @@ me.place(x=170, y=330)
 ```
 - A label and entry for the user's mobile number.
 
-####Submit Button
+#### Submit Button
 ```Python
 def submit():
     tkinter.messagebox.showinfo(title="success", message="Registration Successful!!", ANCHOR=CENTER)
@@ -85,7 +85,7 @@ b.place(x=120, y=380)
 ```
 - A function submit() is defined to show a success message when the button is clicked. The button is styled and placed at the bottom of the form.
 
-####Main Loop
+#### Main Loop
 ```Python
 w.mainloop()
 ```
